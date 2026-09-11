@@ -1,0 +1,30 @@
+# Python 虚拟环境
+.venv/
+.venv_py311_broken/
+venv/
+env/
+
+# python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 环境变量（密钥）
+.env
+
+# Next.js 构建产物
+app/static/_next/
+app/static/_next_*.txt
+
+# 其他
+*.log
+# Next打包清单txt文件
+app/static/_next*.txt
+app/static/not-found/_next*.txt
+app/static/not-found/index.txt
+
+# sqlite数据库文件
+db/*.db
+db/*.db-shm
+db/*.db-wal
